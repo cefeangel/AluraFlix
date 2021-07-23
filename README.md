@@ -51,7 +51,7 @@ Tipo de Requisição: GET
 URL: http://dominio/videos/id
   
 Resposta:
- 
+ ``` 
 {
     "result": true,
     "message": "",
@@ -62,20 +62,21 @@ Resposta:
         "url": "http://localhost:8080/javascript"
     }
 }
-
+ ```
  
 Adiciona um vídeo
 Tipo de Requisição: POST 
   
 URL: http://dominio/videos/
-  
+ ```  
 {
     "titulo" : "Teste video",
     "descricao": " descrição video",
     "url" : "http://localhost:8080/php"
 }
- 
- Reposta
+ ``` 
+ Reposta:
+  ```
   {
     "result": true,
     "message": "Video salvo com sucesso.",
@@ -86,23 +87,23 @@ URL: http://dominio/videos/
         "url": "http://localhost:8080/php"
     }
   }
-  
+ ```  
 
   Atualizar vídeo pelo id
   Tipo de Requisição: PUT/PATCH
   
   URL: http://dominio/videos
-  
+   ```
   {
     "id": "10",
     "titulo": "PHP_7",
     "descricao": "PHP new_7",
     "url": "http://localhost:8080/php_7"
   }
+   ```
   
-  
-  Reposta
-  
+  Reposta:
+   ```
   {
     "result": true,
     "message": "Video atualizado com sucesso.",
@@ -113,7 +114,7 @@ URL: http://dominio/videos/
         "url": "http://localhost:8080/php_7"
     }
   }
-  
+   ```
 
   
   Remover vídeo pelo id
@@ -121,10 +122,11 @@ URL: http://dominio/videos/
   
   URL: http://dominio/videos/id
   
-  Reposta
-  
+  Reposta:
+   ```
   {
     "result": true,
     "message": "Video removido com sucesso.",
     "data": []
   }
+ ```
