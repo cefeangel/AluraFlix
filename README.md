@@ -5,7 +5,7 @@ Listar todos os videos
 Tipo de Requisição: GET
   
 URL:http://dominio/videos
-  
+ ```  
 Resposta:
   {
     "result": true,
@@ -44,7 +44,7 @@ Resposta:
     ]
   }
   
-
+ ```
 Busca vídeo pelo id
 Tipo de Requisição: GET
   
