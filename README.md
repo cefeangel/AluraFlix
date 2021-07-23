@@ -91,9 +91,10 @@ URL: http://dominio/videos/
   Atualizar vídeo pelo id
   Tipo de Requisição: PUT/PATCH
   
-  URL: http://dominio/videos/id
+  URL: http://dominio/videos
   
   {
+    "id": "10",
     "titulo": "PHP_7",
     "descricao": "PHP new_7",
     "url": "http://localhost:8080/php_7"
